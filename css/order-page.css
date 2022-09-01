@@ -1,0 +1,52 @@
+.header-order {
+  width: 100vw;
+  height: 30vh;
+}
+
+.cart-content {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.container-name {
+  display: flex;
+}
+
+.container-name > p {
+  margin-left: 10px;
+}
+
+.line-1 {
+  width: 22px;
+  height: 2px;
+  background-color: #070648;
+}
+
+.line-2 {
+  margin-top: 2px;
+  width: 16px;
+  height: 2px;
+  background-color: #070648;
+}
+
+.form-header {
+  margin: 0 auto;
+  width: 93vw;
+  margin-top: 20px;
+}
+
+.input {
+  width: 97%;
+}
+
+.btn-relative {
+  position: relative;
+  left: 25px;
+  background-color: #f7f5f5;
+  top: 5px;
+  padding: 0px;
+  cursor: pointer;
+}
