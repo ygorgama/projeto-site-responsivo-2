@@ -20,23 +20,20 @@
     <main class="main">
       <section class="content">
         <h1 class="title first">What is your firstname?</h1>
-        <form action="">
+        <form id="form" action="" method="post">
           <input
-            class="input-name"
+            class="input"
             type="text"
-            id="name"
+            id="inputName"
             name="name"
             placeholder="Chris"
           />
+          <button class="btn" type="submit" id="btn-submit">
+            Start Ordering
+          </button>
         </form>
-        <button
-          class="btn"
-          type="button"
-          onclick="location.href='./order-page.html'"
-        >
-          Start Ordering
-        </button>
       </section>
     </main>
+    <script src="./js/index.js"></script>
   </body>
 </html>
