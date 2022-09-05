@@ -16,9 +16,20 @@
   font-weight: 500;
 }
 
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url("./fonts/TT\ Norms\ Pro\ Thin.otf");
+  font-weight: 300;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   background-color: #fff;
   font-family: "TT Norms Pro";
+  color: #27214d;
 }
 
 a {
@@ -45,8 +56,8 @@ a {
   display: flex;
   justify-content: center;
   height: 50vh;
-  width: 100vw;
-
+  width: 90vw;
+  padding: 0 15px;
   margin-top: 30px;
 }
 
@@ -83,4 +94,11 @@ a {
   border-radius: 5px;
   width: 240px;
   background-color: #f7f5f5;
+}
+
+.btn-price {
+  border-radius: 100%;
+  color: #ffa451;
+  font-size: 20px;
+  background-color: #ffe3c9;
 }

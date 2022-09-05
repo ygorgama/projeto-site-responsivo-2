@@ -1,6 +1,17 @@
+body {
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+
 .header-order {
   width: 100vw;
   height: 30vh;
+}
+
+.fixed {
+  border-bottom: 2px solid #ffa451;
 }
 
 .cart-content {
@@ -9,6 +20,13 @@
   justify-content: space-between;
   align-items: center;
   margin: 10px auto;
+}
+
+.cart-content button {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 100px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
 }
 
 .container-name {
@@ -79,7 +97,7 @@
 .header-list li {
   border: 1px solid #e5e5e5;
   border-radius: 5px;
-  box-shadow: 1px 1px 5px #000;
+  box-shadow: 0px 0px 1px #000;
   padding: 5px;
   font-size: 14px;
 }
@@ -101,17 +119,47 @@
 .recommend-section h2 {
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  width: 190px;
+}
+
+.recommend-section h4 {
+  margin-top: 10px;
 }
 
 .price-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
+.box-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-img .hearth {
+  align-self: flex-start;
+  justify-self: baseline;
+  width: 20px;
+  background-color: #fff;
+}
 .combo-list li:not(:last-child),
 .hottest-list li:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 20px;
+}
+
+.combo-list h3 {
+  color: #27214d;
+  font-weight: 500;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.combo-list li {
+  background-color: #fff;
+  border-radius: 20px;
 }
 
 .optios {
@@ -119,4 +167,72 @@
 }
 
 .optios-list {
+  margin-bottom: 20px;
+}
+
+.optios-list li {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.optios-list li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.box-img-hott {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.box-img-hott .hearth {
+  background-color: #fef4f4;
+  align-self: flex-start;
+}
+
+.hottest-list li {
+  background-color: #fef4f4;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.hottest-list {
+  align-items: flex-start;
+}
+
+.hottest-list h4 {
+  margin: 15px 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.especifico .box-img-hott > img {
+  width: 96px;
+  height: 50.17px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 480px) {
+  .cart-content {
+    width: 80vw;
+  }
+  .form-header {
+    margin: 0;
+  }
+  .input.search {
+    width: 80%;
+  }
+  .hottest-list li {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .combo-list li:not(:last-child),
+  .hottest-list li:not(:last-child) {
+    margin-right: 10px;
+  }
+  .input.search {
+    width: 75%;
+  }
 }
