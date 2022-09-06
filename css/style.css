@@ -139,7 +139,7 @@ a {
   }
 }
 
-@media screen and (min-width: 410px) and (max-width: 430px) {
+@media screen and (max-width: 430px) {
   .fruit {
     top: 85px;
     left: 60px;
@@ -152,10 +152,14 @@ a {
 }
 
 @media screen and (max-width: 380px) {
-  .container-image {
-    position: absolute;
-    top: 130px;
+  .fruit {
+    top: 110px;
     left: 60px;
+  }
+
+  .eclipse {
+    top: 340px;
+    left: 70px;
   }
 
   .header img {
@@ -165,13 +169,13 @@ a {
 
 @media screen and (max-width: 330px) {
   .fruit {
-    top: 40px;
-    left: 4px;
+    top: 180px;
+    left: 60px;
   }
 
   .eclipse {
-    top: 240px;
-    left: 4px;
+    top: 380px;
+    left: 60px;
   }
 
   .header img {
@@ -181,13 +185,13 @@ a {
 
 @media screen and (max-width: 285px) {
   .fruit {
-    top: 10px;
-    left: -20px;
+    top: 180px;
+    left: 30px;
   }
 
   .eclipse {
-    top: 200px;
-    left: -19px;
+    top: 380px;
+    left: 30px;
   }
 
   .main {
