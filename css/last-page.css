@@ -51,6 +51,10 @@ h1 {
   font-weight: 500;
 }
 
+.box-price > p {
+  margin-top: 16px;
+}
+
 .informations {
   margin-top: 10px;
   border-bottom: 2px solid #f3f3f3;
@@ -83,6 +87,7 @@ h1 {
 
 .notions {
   margin-top: 10px;
+  width: 90vw;
 }
 
 .notions > p {
@@ -114,6 +119,11 @@ h1 {
 }
 
 .btn {
-  width: 219px;
+  width: 200px;
+  padding: 15px;
   margin: 0;
+}
+
+.fixed {
+  width: 170px;
 }

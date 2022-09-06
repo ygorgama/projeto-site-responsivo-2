@@ -10,10 +10,6 @@ button {
   height: 30vh;
 }
 
-.fixed {
-  border-bottom: 2px solid #ffa451;
-}
-
 .cart-content {
   width: 90vw;
   display: flex;
@@ -160,6 +156,7 @@ button {
 .combo-list li {
   background-color: #fff;
   border-radius: 20px;
+  box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
 }
 
 .optios {
@@ -212,6 +209,12 @@ button {
   align-self: flex-end;
 }
 
+.price {
+  color: #f08626;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 480px) {
   .cart-content {
     width: 80vw;
@@ -234,5 +237,12 @@ button {
   }
   .input.search {
     width: 75%;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .recommend-section,
+  .optios {
+    margin-left: 2px;
   }
 }

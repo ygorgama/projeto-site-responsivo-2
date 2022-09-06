@@ -45,11 +45,23 @@ a {
 }
 
 .header {
-  height: 45vh;
+  height: 60vh;
   background-color: #ffa451;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.fruit {
+  position: absolute;
+  top: 85px;
+  left: 500px;
+}
+
+.eclipse {
+  position: absolute;
+  top: 370px;
+  left: 510px;
 }
 
 .main {
@@ -101,4 +113,85 @@ a {
   color: #ffa451;
   font-size: 20px;
   background-color: #ffe3c9;
+}
+
+.fixed {
+  border-bottom: 2px solid #ffa451;
+}
+
+@media screen and (max-width: 1024px) {
+  .fruit {
+    left: 300px;
+  }
+
+  .eclipse {
+    left: 310px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .fruit {
+    left: 200px;
+  }
+
+  .eclipse {
+    left: 210px;
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 430px) {
+  .fruit {
+    top: 85px;
+    left: 60px;
+  }
+
+  .eclipse {
+    top: 370px;
+    left: 67px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container-image {
+    position: absolute;
+    top: 130px;
+    left: 60px;
+  }
+
+  .header img {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .fruit {
+    top: 40px;
+    left: 4px;
+  }
+
+  .eclipse {
+    top: 240px;
+    left: 4px;
+  }
+
+  .header img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .fruit {
+    top: 10px;
+    left: -20px;
+  }
+
+  .eclipse {
+    top: 200px;
+    left: -19px;
+  }
+
+  .main {
+    width: 100vw;
+    padding: 0;
+  }
 }
