@@ -146,7 +146,7 @@ button {
   margin-right: 20px;
 }
 
-.combo-list h3 {
+.combo-list h3 a {
   color: #27214d;
   font-weight: 500;
   margin: 15px 0;
@@ -191,16 +191,18 @@ button {
   background-color: #fef4f4;
   border-radius: 5px;
   padding: 20px;
+  height: 150px;
 }
 
 .hottest-list {
   align-items: flex-start;
 }
 
-.hottest-list h4 {
+.hottest-list h4 a {
   margin: 15px 0;
   font-weight: 500;
   font-size: 14px;
+  color: #27214d;
 }
 
 .especifico .box-img-hott > img {
@@ -226,7 +228,7 @@ button {
     width: 80%;
   }
   .hottest-list li {
-    padding: 5px;
+    padding: 10px;
   }
 }
 
